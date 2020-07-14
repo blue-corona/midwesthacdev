@@ -1,0 +1,172 @@
+@media (hover: none), only screen and (max-width: 991px) {
+
+  h1, .h1{
+  	font-family: $alternate_font_family_1;
+  	font-size: 32px!important;
+  	font-weight: 700;
+  	text-transform: capitalize;
+  	line-height: 36px!important;
+  	letter-spacing: default;
+  	color: $primary_color;
+  	text-align: left!important;
+  }
+
+  h2, .h2{
+  	font-family: $alternate_font_family_1;
+  	font-size: 26px!important;
+  	font-weight: 500;
+  	text-transform: capitalize;
+  	line-height: 30px!important;
+  	letter-spacing: default;
+  	color: $primary_color;
+  	text-align: left!important;
+  }
+
+  h3, .h3{
+  	font-family: $alternate_font_family_1;
+  	font-size: 22px!important;
+  	font-weight: 400;
+  	text-transform: capitalize;
+  	line-height: 24px!important;
+  	letter-spacing: default;
+  	color: $primary_color;
+  }
+
+  
+h4{
+  	font-family: $alternate_font_family_1;
+  	font-size: 36px;
+  	font-weight: 700;
+  	text-transform: capitalize;
+  	line-height: 41px;
+  	letter-spacing: default;
+  	color: $white_color;
+  }
+.h4-alt{
+  	font-family: $alternate_font_family_1;
+  	font-size: 36px;
+  	font-weight: 700;
+  	text-transform: capitalize;
+  	line-height: 41px;
+  	letter-spacing: default;
+  	color: $primary_color;
+  }
+
+   h5,.h5{
+  	font-family: $alternate_font_family_1;
+  	font-size: 24px!important;
+  	font-weight: 300; 
+  	text-transform: capitalize;
+  	line-height: 30px!important;
+  	letter-spacing: default;
+  	color: $white_color;
+  }
+.h5-alt{
+  	font-family: $alternate_font_family_1;
+  	font-size: 24px;
+  	font-weight: 300; 
+  	text-transform: capitalize;
+  	line-height: 30px;
+  	letter-spacing: default;
+  	color: $primary_color;
+  }
+
+  h6, .h6{
+  	font-family: $alternate_font_family_1;
+  	font-size: 22px;
+  	font-weight: 300;
+  	text-transform: capitalize;
+  	letter-spacing: default;
+  	color: $primary_color;
+  }
+ 
+  body, li, p, .p{
+  	font-family: $default_font_family;
+  	font-size: 16px!important;
+  	font-weight: 400;
+  	text-transform: none;
+  	line-height: 24px!important;
+  	letter-spacing: default;
+  	color: $primary_color;
+
+  }
+  body li a, body p a {
+    font-family: "Open Sans" !important;
+    font-size: 16px !important;
+    color: #bf4122 !important;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 24px !important;
+    &:hover{
+      color: #3E3b3b !important;
+    }
+    }
+  .p-alt{
+  	font-family: $default_font_family;
+  	font-size: 16px!important;
+  	font-weight: 400;
+  	text-transform: none;
+  	line-height: 24px!important;
+  	letter-spacing: default;
+  	color: $white_color;
+
+  }
+
+  //Classes for font-weights
+  .bc_sm_text_thin { font-weight: 100 !important; }
+  .bc_sm_text_xlight { font-weight: 200 !important; }
+  .bc_sm_text_light { font-weight: 300 !important; }
+  .bc_sm_text_normal { font-weight: 400 !important; }
+  .bc_sm_text_medium { font-weight: 500 !important; }
+  .bc_sm_text_semibold { font-weight: 600 !important; }
+  .bc_sm_text_bold { font-weight: 700 !important; }
+  .bc_sm_text_xbold { font-weight: 800 !important; }
+  .bc_sm_text_heavy { font-weight: 900 !important; }
+
+  //Classes for font sizes
+  .bc_sm_text_13 { font-size: 13px !important; }
+  .bc_sm_text_12 { font-size: 12px !important; }
+  .bc_sm_text_15 { font-size: 15px !important; }
+  .bc_sm_text_16 { font-size: 16px !important; }
+  .bc_sm_text_18 { font-size: 18px !important; }
+  .bc_sm_text_20 { font-size: 20px !important; }
+  .bc_sm_text_22 { font-size: 22px !important; }
+  .bc_sm_text_24 { font-size: 24px !important; }
+  .bc_sm_text_30 { font-size: 30px !important; }
+  .bc_sm_text_36 { font-size: 36px !important; }
+  .bc_sm_text_48 { font-size: 48px !important; }
+   .bc_sm_text_55 { font-size: 55px !important; }
+
+  //Classes for line Heights
+  .bc_sm_line_height_14 { line-height: 14px !important; }
+  .bc_sm_line_height_16 { line-height: 16px !important; }
+  .bc_sm_line_height_17 { line-height: 17px !important; }
+  .bc_sm_line_height_18 { line-height: 18px !important; }
+  .bc_sm_line_height_19 { line-height: 19px !important; }
+  .bc_sm_line_height_20 { line-height: 20px !important; }
+  .bc_sm_line_height_22 { line-height: 22px !important; }
+  .bc_sm_line_height_24 { line-height: 24px !important; }
+  .bc_sm_line_height_26 { line-height: 26px !important; }
+  .bc_sm_line_height_30 { line-height: 30px !important; }
+  .bc_sm_line_height_34 { line-height: 34px !important; }
+  .bc_sm_line_height_36 { line-height: 36px !important; }
+  .bc_sm_line_height_41 { line-height: 41px !important; }
+  .bc_sm_line_height_48 { line-height: 48px !important; }
+  .bc_sm_line_height_50 { line-height: 50px !important; }
+  .bc_sm_line_height_60 { line-height: 60px !important; }
+
+
+  //Classes for letter spacing
+  .bc_sm_letter_spacing_24 { letter-spacing: 24px !important; }
+  .bc_sm_letter_spacing_25 { letter-spacing: 25px !important; }
+  .bc_sm_letter_spacing_36 { letter-spacing: 36px !important; }
+
+//for 
+
+/*ul li::before {
+    Line-height: 21px!important;
+}*/
+.w-sm-100{
+  width: 100%!important;
+}
+}

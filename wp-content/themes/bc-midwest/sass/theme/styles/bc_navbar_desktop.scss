@@ -1,0 +1,110 @@
+.bc_nav_container_desktop{
+	@media (hover: none), only screen and (max-width: 991px) {
+		display: none !important;
+	}
+	padding: 0px !important;
+	background: map-get($nav, background);
+	#navbarSupportedContent{
+		ul.navbar-nav{
+			ul{
+				padding: 0px !important;
+				border-radius: 0px;
+				margin:0px;
+				min-width: 18em;
+			}
+			li{
+				padding: 0.5em 0.75em;
+				a{	line-height:50px;
+					padding: 0px;
+					&:after{
+						display:none !important;
+					}
+					.bc-nav-dropdown-icon{
+						float: right;
+					}
+				}
+			}
+			// Level 1 Links
+			& > li{
+
+				background: map-get($topLevel, background);
+				&:hover{
+					background: map-get($topLevel, hoverBackground);
+					& > a{
+						color: map-get($topLevel, hoverColor);
+						svg {
+							color: map-get($topLevel, hoverColor); 
+						}
+					}
+				}
+
+				& > a{
+					color: map-get($topLevel, color);
+					font-family: map-get($topLevel, fontFamily);
+					font-size: map-get($topLevel, fontSize);
+					font-weight: map-get($topLevel, fontWeight); 
+					text-align: center;
+					svg {
+						display: none;
+						/*color: map-get($topLevel, iconColor);*/ 
+					}
+				}
+			}
+
+			//Level 2 links
+			& > li > ul{ 
+				& > li{
+					background: map-get($secondLevel, background);
+					&:hover{
+						background: map-get($secondLevel, hoverBackground);
+						& > a{
+							color: map-get($secondLevel, hoverColor) !important;
+							svg {
+								color: map-get($secondLevel, hoverColor); 
+							}
+						}
+					}
+
+					& > a{
+						color: map-get($secondLevel, color);
+						font-family: map-get($secondLevel, fontFamily);
+						font-size: map-get($secondLevel, fontSize);
+						font-weight: map-get($secondLevel, fontWeight); 
+						background:none;
+						text-align: left;
+						svg {
+							color: map-get($secondLevel, iconColor); 
+						}
+					}
+				}
+			}
+
+			//Level 3 links
+			& > li > ul > li > ul{ 
+				top: 0;
+				margin-left: 100%;
+				& > li{
+					background: map-get($secondLevel, background);
+					&:hover{
+						background: map-get($secondLevel, hoverBackground);
+						& > a{
+							color: map-get($secondLevel, hoverColor) !important;
+						}
+					}
+
+					& > a{
+						color: map-get($secondLevel, color);
+						font-family: map-get($secondLevel, fontFamily);
+						font-size: map-get($secondLevel, fontSize);
+						font-weight: map-get($secondLevel, fontWeight); 
+						background:none;
+						text-align: left;
+						svg {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+}

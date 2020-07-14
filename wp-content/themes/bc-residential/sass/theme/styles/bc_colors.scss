@@ -1,0 +1,213 @@
+//Classes for color
+.bc_color_primary { 
+	color: $primary_color; 
+	&--imp{
+		@extend .bc_color_primary;
+		color: $primary_color !important; 
+	}
+}
+.bc_color_secondary { 
+	color: $secondary_color!important; 
+	&--imp{
+		@extend .bc_color_secondary;
+		color: $secondary_color !important; 
+	}
+}
+.bc_color_tertiary { 
+	color: $tertiary_color; 
+	&--imp{
+		@extend .bc_color_tertiary;
+		color: $tertiary_color !important; 
+	}
+}
+.bc_color_quaternary{ 
+	color: $quaternary_color; 
+	&--imp{
+		@extend .bc_color_quaternary;
+		color: $quaternary_color !important; 
+	}
+}
+.bc_color_error { 
+	color: $error_color; 
+	&--imp{
+		@extend .bc_color_error;
+		color: $error_color !important; 
+	}
+}
+.bc_color_warning { 
+	color: $warning_color; 
+	&--imp{
+		@extend .bc_color_warning;
+		color: $warning_color !important; 
+	}
+}
+.bc_color_success { 
+	color: $success_color; 
+	&--imp{
+		@extend .bc_color_success;
+		color: $success_color !important; 
+	}
+}
+.bc_color_info { 
+	color: $info_color; 
+	&--imp{
+		@extend .bc_color_info;
+		color: $info_color !important; 
+	}
+}
+.bc_color_white { 
+	color: $white_color; 
+	&--imp{
+		@extend .bc_color_white;
+		color: $white_color !important; 
+	}
+}
+.bc_color_1 { 
+	color: $bc_color_1; 
+	&--imp{
+		@extend .bc_color_1;
+		color: $bc_color_1!important; 
+	}
+}
+.bc_color_2 { 
+	color: $bc_color_2; 
+	&--imp{
+		@extend .bc_color_2;
+		color: $bc_color_2 !important; 
+	}
+}
+.bc_color_3 { 
+	color: $bc_color_3; 
+	&--imp{
+		@extend .bc_color_3;
+		color: $bc_color_3 !important; 
+	}
+}
+.bc_color_4 { 
+	color: $bc_color_4; 
+	&--imp{
+		@extend .bc_color_4;
+		color: $bc_color_4 !important; 
+	}
+}
+.bc_color_5 { 
+	color: $bc_color_5; 
+	&--imp{
+		@extend .bc_color_5;
+		color: $bc_color_5 !important; 
+	}
+}
+.bc_color_6 { 
+	color: $bc_color_6; 
+	&--imp{
+		@extend .bc_color_6;
+		color: $bc_color_6 !important; 
+	}
+}
+.bc_color_7 { 
+	color: $bc_color_7; 
+	&--imp{
+		@extend .bc_color_7;
+		color: $bc_color_7 !important; 
+	}
+}
+.bc_color_11 { 
+	color: $bc_color_11; 
+	&--imp{
+		@extend .bc_color_11;
+		color: $bc_color_11 !important; 
+	}
+}
+.bc_color_12 { 
+	color: $bc_color_12; 
+	&--imp{
+		@extend .bc_color_12;
+		color: $bc_color_12 !important; 
+	}
+}
+.bc_color_13 { 
+	color: $bc_color_13; 
+	&--imp{
+		@extend .bc_color_13;
+		color: $bc_color_13 !important; 
+	}
+}
+.bc_color_14 { 
+	color: $bc_color_14; 
+	&--imp{
+		@extend .bc_color_14;
+		color: $bc_color_14 !important; 
+	}
+}
+
+
+//Classes for bg color
+.bc_color_primary_bg { 
+	background-color: $primary_color; 
+	&--imp{
+		@extend .bc_color_primary_bg;
+		background-color: $primary_color !important; 
+	}
+}
+.bc_color_secondary_bg { background-color: $secondary_color; }
+.bc_color_tertiary_bg { background-color: $tertiary_color; }
+.bc_color_quaternary_bg{ background-color: $quaternary_color; }
+.bc_color_error_bg { background-color: $error_color; }
+.bc_color_warning_bg { background-color: $warning_color; }
+.bc_color_success_bg { background-color: $success_color; }
+.bc_color_info_bg { background-color: $info_color; }
+.bc_color_white_bg { background-color: $white_color; }
+.bc_color_1_bg { background-color: $bc_color_1; }
+.bc_color_2_bg { background-color: $bc_color_2; }
+.bc_color_3_bg { background-color: $bc_color_3; }
+.bc_color_4_bg { background-color: $bc_color_4; }
+.bc_color_5_bg { background-color: $bc_color_5; }
+.bc_color_6_bg { background-color: $bc_color_6; }
+.bc_color_7_bg { background-color: $bc_color_7; }
+.bc_color_11_bg { background-color: $bc_color_11; }
+.bc_color_12_bg { background-color: $bc_color_12; }
+.bc_color_13_bg { background-color: $bc_color_13; }
+.bc_color_14_bg { background-color: $bc_color_14!important; }
+
+//Classes for hover color
+.bc_color_primary_hover { &:hover{ color: $primary_color !important; } }
+.bc_color_secondary_hover { &:hover{ color: $secondary_color !important; } }
+.bc_color_tertiary_hover { &:hover{ color: $tertiary_color !important; } }
+.bc_color_quaternary_hover{ &:hover{ color: $quaternary_color !important; } }
+.bc_color_error_hover { &:hover{ color: $error_color !important; } }
+.bc_color_warning_hover { &:hover{ color: $warning_color !important; } }
+.bc_color_success_hover { &:hover{ color: $success_color !important; } }
+.bc_color_info_hover { &:hover{ color: $info_color !important; } }
+.bc_color_white_hover { &:hover{ color: $white_color!important; } }
+.bc_color_1_hover { &:hover{ color: $bc_color_1 !important; } }
+.bc_color_2_hover { &:hover{ color: $bc_color_2 !important; } }
+.bc_color_3_hover { &:hover{ color: $bc_color_3 !important; } }
+.bc_color_4_hover { &:hover{ color: $bc_color_4 !important; } }
+.bc_color_5_hover { &:hover{ color: $bc_color_5 !important; } }
+.bc_color_6_hover { &:hover{ color: $bc_color_6 !important; } }
+.bc_color_7_hover { &:hover{ color: $bc_color_7 !important; } }
+.bc_color_11_hover { &:hover{ color: $bc_color_11 !important; } }
+.bc_color_12_hover { &:hover{ color: $bc_color_12 !important; } }
+.bc_color_13_hover { &:hover{ color: $bc_color_13 !important; } }
+.bc_color_14_hover { &:hover{ color: $bc_color_14 !important; } }
+//Classes for hover bg color
+.bc_color_primary_hover_bg { &:hover{ background-color: $primary_color; } }
+.bc_color_secondary_hover_bg { &:hover{ background-color: $secondary_color; } }
+.bc_color_tertiary_hover_bg { &:hover{ background-color: $tertiary_color; } }
+.bc_color_quaternary_hover_bg{ &:hover{ background-color: $quaternary_color; } }
+.bc_color_error_hover_bg { &:hover{ background-color: $error_color; } }
+.bc_color_warning_hover_bg { &:hover{ background-color: $warning_color; } }
+.bc_color_success_hover_bg { &:hover{ background-color: $success_color; } }
+.bc_color_info_hover_bg { &:hover{ background-color: $info_color; } }
+.bc_color_white_hover_bg { &:hover{ background-color: $white_color; } }
+.bc_color_1_hover_bg { &:hover{ background-color: $bc_color_1; } }
+.bc_color_2_hover_bg { &:hover{ background-color: $bc_color_2; } }
+.bc_color_3_hover_bg { &:hover{ background-color: $bc_color_3; } }
+.bc_color_4_hover_bg { &:hover{ background-color: $bc_color_4; } }
+.bc_color_5_hover_bg { &:hover{ background-color: $bc_color_5; } }
+.bc_color_6_hover_bg { &:hover{ background-color: $bc_color_6; } }
+.bc_color_7_hover_bg { &:hover{ background-color: $bc_color_7; } }
+.bc_color_11_hover_bg { &:hover{ background-color: $bc_color_11; } }
+.bc_color_12_hover_bg { &:hover{ background-color: $bc_color_12; } }
+.bc_color_13_hover_bg { &:hover{ background-color: $bc_color_13; } }
+.bc_color_14_hover_bg { &:hover{ background-color: $bc_color_14; } }  
